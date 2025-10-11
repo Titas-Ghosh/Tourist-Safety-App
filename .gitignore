@@ -27,6 +27,7 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
+.packages
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
@@ -43,3 +44,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Environment variables
+# From the remote version - it's a good practice to ignore these
+.env*
+
+# Generated Javascript files
+# From the remote version
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+# It is recommended to check-in your pubspec.lock file
+# See https://dart.dev/tools/pub/glossary#lockfile
+# pubspec.lock
