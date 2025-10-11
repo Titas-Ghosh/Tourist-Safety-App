@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "724485041805",
+    "project_id": "tourist-safety-593d7",
+    "storage_bucket": "tourist-safety-593d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724485041805:android:0da986e36ce6a2ff1cfcc4",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGOEiB31bdl82BkFjsw5f_LTlCGh1bcrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
