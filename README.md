@@ -1,28 +1,58 @@
-# Tourist Safety App
+# 🛡️ Tourist Safety App
 
-A modern tourist safety app built with Flutter that provides real-time alerts for unsafe zones, SOS messaging, and trip management features to ensure a secure travel experience.
+[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-## Core Features
-- **Geofencing Alerts:** Automatically sends notifications when a user enters a pre-defined unsafe zone fetched from Cloud Firestore.
-- **SOS System:** Sends a custom emergency message with the user's live location to saved contacts.
-- **Trip Management:** Plan upcoming trips and view their status (Upcoming/Ongoing) on the dashboard.
-- **Dynamic Safety Score:** Calculates a safety score based on user activity and location.
-- **Live Weather Updates:** Shows current weather conditions for the user's location.
+A modern, intuitive mobile application designed to ensure a secure travel experience for tourists. Built with Flutter, this app empowers users to explore new destinations confidently by providing critical safety tools right at their fingertips.
 
-## Tech Stack
-- **Frontend:** Flutter
-- **Database:** Cloud Firestore
-- **Services:** `geofencing_api`, `flutter_local_notifications`, `geolocator`, `shared_preferences`, `http`
+---
 
-## Getting Started
+## ✨ Key Features
 
-This project is a starting point for a Flutter application.
+- 🚨 **Real-Time Unsafe Zone Alerts:**  
+  Proactively notifies users when they enter or approach areas marked as high-risk or unsafe based on real-time data.
 
-A few resources to get you started if this is your first Flutter project:
+- 🆘 **One-Touch SOS Messaging:**  
+  Instantly sends emergency alerts with live location tracking to pre-configured emergency contacts and local authorities.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🗺️ **Trip Management:**  
+  Allows users to organize their travel itineraries, track their routes, and share their live status with family and friends.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 📱 **Cross-Platform:**  
+  Smooth and responsive UI tailored for both Android and iOS devices.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Frontend:** Flutter & Dart  
+- **Backend:** *[e.g., Firebase Authentication & Cloud Firestore / Node.js]*  
+- **Mapping/Geolocation:** *[e.g., Google Maps API / Mapbox]*  
+- **State Management:** *[e.g., Provider / Riverpod / GetX]*  
+
+---
+
+## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### 📋 Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (Version X.X.X or higher)  
+- Android Studio or VS Code  
+- An emulator or physical device  
+- API Keys for *[e.g., Google Maps / Firebase]*  
+
+---
+
+### ⚙️ Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Titas-Ghosh/Tourist-Safety-App.git
+   cd Tourist-Safety-App
+
+2. **Install dependencies:**
+   ```bash
+   flutter pub get
